@@ -14,4 +14,8 @@ const array3 = [1, 2, 3];
 array3.push(4, 5, 6);
 console.log(array3);
 
-// 
+// unshift
+const array4 = [1, 2, 3];
+array4.unshift(4, 5, 6);
+console.log(array4);
+
