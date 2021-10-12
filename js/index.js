@@ -23,3 +23,8 @@ console.log(array4);
 const array5 = ["js", "css", "html"];
 const result5 = array5.shift();
 console.log(result5);
+
+// pop
+const array6 = ["js", "css", "html"];
+const result6 = array6.pop();
+console.log(result6);
