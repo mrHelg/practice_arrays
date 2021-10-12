@@ -28,3 +28,13 @@ console.log(result5);
 const array6 = ["js", "css", "html"];
 const result6 = array6.pop();
 console.log(result6);
+
+// slice-1
+const array7 = [1, 2, 3, 4, 5];
+const result7 = array7.slice(0,3);
+console.log(result7);
+
+// slice-2
+const array8 = [1, 2, 3, 4, 5];
+const result8 = array8.slice(-2);
+console.log(result8);
