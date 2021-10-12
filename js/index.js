@@ -19,3 +19,7 @@ const array4 = [1, 2, 3];
 array4.unshift(4, 5, 6);
 console.log(array4);
 
+// shift
+const array5 = ["js", "css", "html"];
+const result5 = array5.shift();
+console.log(result5);
