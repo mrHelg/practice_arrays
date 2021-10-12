@@ -1,12 +1,17 @@
-// variables
-const array1 = [1, 2, 3];
-const array2 = [4, 5, 6];
-let result;
-
 // concat
-result = array1.concat(array2);
-console.log(result);
+const array11 = [1, 2, 3];
+const array12 = [4, 5, 6];
+const concated = array11.concat(array12);
+console.log(concated);
 
 // reverse
-result = array1.reverse();
-console.log(result);
+const array2 = [1, 2, 3];
+array2.reverse();
+console.log(array2);
+
+// push
+const array3 = [1, 2, 3];
+array3.push(4, 5, 6);
+console.log(array3);
+
+// 
