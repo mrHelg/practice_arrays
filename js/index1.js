@@ -76,4 +76,4 @@ const array14 = [];
 for (let i in obj) {
   array14.push(i);
 }
- console.log(array14);
+console.log(array14);
