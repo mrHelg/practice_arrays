@@ -60,3 +60,8 @@ array12.splice(1, 0, 'a', 'b'); // [1, 'a', 'b', 2, 3, 4, 5]
 array12.splice(6, 0, 'c'); // [1, 'a', 'b', 2, 3, 4, 'c', 5]
 array12.splice(array12.length, 0, 'e'); // [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e']
 console.log(array12);
+
+// sort
+const array13 = [3, 4, 1, 2, 7];
+array13.sort();
+console.log(array13);
