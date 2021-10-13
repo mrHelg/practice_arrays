@@ -2,9 +2,9 @@
 const hasElem = (arr, item) => arr.includes(item);
 
 // 2
-const arr2 = [2, 5, 9, 11, 15];
+const array2 = [2, 5, 9, 11, 15];
 const number = 52;
-// console.log(hasElem(arr2, number));
+// console.log(hasElem(array2, number));
 
 // 3
 const hasTwoNumbers = (arr) => {
@@ -18,23 +18,29 @@ const hasTwoNumbers = (arr) => {
   }
   return false;
 };
-const arr3 = [1, 2, 3, 3];
-// console.log(hasTwoNumbers(arr3));
+const array3 = [1, 2, 3, 3];
+// console.log(hasTwoNumbers(array3));
 
 // 4
 const MIN_VALUE = 15;
 const MAX_VALUE = 78;
 const myRandom = (max, min) =>
   Math.floor(Math.random() * (max - min + 1) + min);
-const arr4 = [];
+const array4 = [];
 for (let i = 0; i < 10; i++) {
-  arr4.push(myRandom(MAX_VALUE, MIN_VALUE));
+  array4.push(myRandom(MAX_VALUE, MIN_VALUE));
 }
-// console.log(arr4);
+// console.log(array4);
 
 // 5
 const getMaxOfArray = (arr) => Math.max.apply(null, arr);
 const getMinOfArray = (arr) => Math.min.apply(null, arr);
-const arr5 = [4, -2, 5, 19, -130, 0, 10];
-console.log(getMaxOfArray(arr5));
-console.log(getMinOfArray(arr5));
+const array5 = [4, -2, 5, 19, -130, 0, 10];
+// console.log(getMaxOfArray(array5));
+// console.log(getMinOfArray(array5));
+
+// 6
+const array6 = [12, 15, 20, 25, 59, 79];
+const reducer = (summa, item) => summa + item;
+const average = (arr) => arr.reduce(reducer) / arr.length; 
+console.log(average(array6));
