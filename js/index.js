@@ -65,3 +65,15 @@ console.log(array12);
 const array13 = [3, 4, 1, 2, 7];
 array13.sort();
 console.log(array13);
+
+// Object.keys
+const obj = {
+  js: 'test',
+  jq: 'hello',
+  css: 'world',
+};
+const array14 = [];
+for (let i in obj) {
+  array14.push(i);
+}
+ console.log(array14);
