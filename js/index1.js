@@ -63,7 +63,7 @@ console.log(array12);
 
 // sort
 const array13 = [3, 4, 1, 2, 7];
-array13.sort();
+array13.sort((a, b) => a - b);
 console.log(array13);
 
 // Object.keys
